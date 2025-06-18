@@ -1,0 +1,29 @@
+{
+  "name": "custom-website-solutions",
+  "version": "1.0.0",
+  "description": "Professional web developer portfolio showcasing custom website solutions",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "npx serve public",
+    "build": "echo 'Static site - no build process needed'",
+    "start": "npx serve public",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "web developer",
+    "toronto",
+    "custom websites",
+    "portfolio",
+    "business growth",
+    "conversion optimization"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/your-repo-name.git"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
