@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Michael Gardesey</title>
+    <meta name="description" content="Learn about Michael Gardesey, Graduate Minerals Engineer from Tarkwa-Nsuaem, Ghana.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    <div class="container">
+        <header class="site-header glassy">
+            <div class="header-flex">
+                <nav class="main-nav" aria-label="Primary navigation">
+                    <a href="home.html" class="nav-item"><i class="fas fa-home"></i> <span>Home</span></a>
+                    <a href="about.html" class="nav-item active"><i class="fas fa-user"></i> <span>About</span></a>
+                    <a href="work.html" class="nav-item"><i class="fas fa-briefcase"></i> <span>Work</span></a>
+                    <a href="blog.html" class="nav-item"><i class="fas fa-pen"></i> <span>Blog</span></a>
+                    <a href="gallery.html" class="nav-item"><i class="fas fa-image"></i> <span>Gallery</span></a>
+                    <a href="connect.html" class="nav-item"><i class="fas fa-link"></i> <span>Connect</span></a>
+                    <a href="testimonials.html" class="nav-item"><i class="fas fa-quote-left"></i> <span>Testimonials</span></a>
+                    <button class="theme-toggle" id="theme-toggle" title="Toggle dark/light mode" aria-label="Toggle dark/light mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </nav>
+                <div class="datetime-display">
+                    <i class="fas fa-clock"></i>
+                    <span id="datetime-display"></span>
+                </div>
+            </div>
+        </header>
+        <main class="main-content fade-in">
+            <section class="section-card about-section">
+                <h1 class="gradient-text">About Me</h1>
+                <div class="about-flex">
+                    <img src="profile.jpg" class="about-img" alt="Michael Gardesey portrait" />
+                    <div class="about-bio">
+                        <p>
+                            Hello! I'm <strong>Michael Gardesey</strong>, a Graduate Minerals Engineer based in Tarkwa-Nsuaem, Ghana.<br>
+                            Passionate about mineral resources, sustainability, and innovative mining solutions.<br>
+                            My background includes experience as National Service Personnel at <a href="https://ghanabauxite.com/" target="_blank" rel="noopener" class="link-blue">Ghana Bauxite Co. Ltd.</a> and as an alumnus of the <a href="https://umat.edu.gh/" target="_blank" rel="noopener" class="link-blue">University of Mines and Technology, Tarkwa</a>.
+                        </p>
+                        <ul class="about-list">
+                            <li><i class="fas fa-graduation-cap"></i> <strong>Degree:</strong> BSc Minerals Engineering</li>
+                            <li><i class="fas fa-globe"></i> <strong>Location:</strong> Tarkwa-Nsuaem, Ghana</li>
+                            <li><i class="fas fa-envelope"></i> <strong>Email:</strong> michael.gardesey@email.com</li>
+                            <li><i class="fas fa-users"></i> <strong>Affiliations:</strong> mGhIE, mPAX</li>
+                        </ul>
+                        <a href="connect.html" class="btn btn-primary">Get in touch</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
