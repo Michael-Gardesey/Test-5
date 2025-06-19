@@ -13,51 +13,56 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <div class="background-gradient"></div>
     <div class="container">
-        <header class="site-header">
+        <header class="site-header glassy">
             <div class="header-flex">
                 <nav class="main-nav" aria-label="Primary navigation">
-                    <a href="#" class="nav-item active"><i class="fas fa-home"></i> <span>Home</span></a>
-                    <a href="#about" class="nav-item"><i class="fas fa-user"></i> <span>About</span></a>
-                    <a href="#work" class="nav-item"><i class="fas fa-briefcase"></i> <span>Work</span></a>
-                    <a href="#blog" class="nav-item"><i class="fas fa-pen"></i> <span>Blog</span></a>
-                    <a href="#gallery" class="nav-item"><i class="fas fa-image"></i> <span>Gallery</span></a>
-                    <a href="#connect" class="nav-item"><i class="fas fa-link"></i> <span>Connect</span></a>
-                    <a href="#testimonials" class="nav-item"><i class="fas fa-quote-left"></i> <span>Testimonials</span></a>
+                    <a href="home.html" class="nav-item active"><i class="fas fa-home"></i> <span>Home</span></a>
+                    <a href="about.html" class="nav-item"><i class="fas fa-user"></i> <span>About</span></a>
+                    <a href="work.html" class="nav-item"><i class="fas fa-briefcase"></i> <span>Work</span></a>
+                    <a href="blog.html" class="nav-item"><i class="fas fa-pen"></i> <span>Blog</span></a>
+                    <a href="gallery.html" class="nav-item"><i class="fas fa-image"></i> <span>Gallery</span></a>
+                    <a href="connect.html" class="nav-item"><i class="fas fa-link"></i> <span>Connect</span></a>
+                    <a href="testimonials.html" class="nav-item"><i class="fas fa-quote-left"></i> <span>Testimonials</span></a>
                     <button class="theme-toggle" id="theme-toggle" title="Toggle dark/light mode" aria-label="Toggle dark/light mode">
                         <i class="fas fa-moon"></i>
                     </button>
                 </nav>
+                <div class="datetime-display">
+                    <i class="fas fa-clock"></i>
+                    <span id="datetime-display"></span>
+                </div>
             </div>
         </header>
 
-        <main class="hero-section">
-            <div class="hero-content">
+        <main class="hero-section fade-in">
+            <div class="hero-content section-card">
                 <div class="location">
-                    Tarkwa-Nsuaem Municipal District, Western Region, Ghana
+                    <i class="fas fa-map-marker-alt"></i> Tarkwa-Nsuaem Municipal District, Western Region, Ghana
                 </div>
-                <h1 class="hero-title">
+                <h1 class="hero-title gradient-text">
                     Graduate<br>
                     Minerals Engineer
                 </h1>
                 <div class="hero-subtitle">
                     <p>
-                        I am currently serving as National Service Personnel at
+                        I am currently serving as <b>National Service Personnel</b> at
                         <a href="https://ghanabauxite.com/" class="link-blue" target="_blank" rel="noopener">Ghana Bauxite Co. Ltd.</a>
                         <br>
                         Alumni, <a href="https://umat.edu.gh/" class="link-blue" target="_blank" rel="noopener">University of Mines and Technology, Tarkwa</a>
                     </p>
                 </div>
                 <div class="affiliations-section">
-                    <p>Affiliations:</p>
+                    <p><i class="fas fa-users"></i> Affiliations:</p>
                     <ul>
                         <li>mGhIE</li>
                         <li>mPAX</li>
                     </ul>
                 </div>
                 <div class="action-buttons">
-                    <a href="#work" class="btn btn-dark">See my work</a>
-                    <a href="#connect" class="btn btn-primary">Start a project</a>
+                    <a href="work.html" class="btn btn-dark">See my work</a>
+                    <a href="connect.html" class="btn btn-primary">Start a project</a>
                 </div>
             </div>
             <div class="hero-image-wrapper">
