@@ -1,27 +1,66 @@
 :root {
-    --primary-color: #3b82f6;
-    --secondary-color: #2563eb;
-    --text-color: #1e293b;
-    --bg-color: #ffffff;
-    --nav-bg: rgba(255, 255, 255, 0.9);
-    --shadow-color: rgba(0, 0, 0, 0.08);
-    --form-bg: white;
-    --form-border: #E2E8F0;
-    --hero-bg: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%);
-    --contact-bg: #F8FAFC;
+    --primary-blue: #4477FF;
+    --secondary-blue: #2563eb;
+    --text-gray: #666666;
+    --bg-color: #f3f6fd;
 }
 
-[data-theme="dark"] {
-    --primary-color: #60a5fa;
-    --secondary-color: #3b82f6;
-    --text-color: #e2e8f0;
-    --bg-color: #0f172a;
-    --nav-bg: rgba(15, 23, 42, 0.9);
-    --shadow-color: rgba(0, 0, 0, 0.3);
-    --form-bg: #1e293b;
-    --form-border: #334155;
-    --hero-bg: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-    --contact-bg: #1e293b;
+body.homepage-hero-bg {
+    background: var(--bg-color);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
 }
 
-/* ... (rest of your CSS remains unchanged) ... */
+.datetime-display {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 0.9rem;
+    color: var(--text-gray);
+}
+
+.datetime-display i {
+    margin-right: 5px;
+}
+
+.user-info {
+    margin-left: 15px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 60px auto 0;
+    padding: 0 20px;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 650px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    color: #22c55e;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.location-dot {
+    width: 8px;
+    height: 8px;
+    background: #ff1493;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(
