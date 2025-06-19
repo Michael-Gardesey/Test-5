@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Michael Gardesey</title>
+    <meta name="description" content="Photo gallery of projects, events, and fieldwork by Michael Gardesey.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    <div class="container">
+        <header class="site-header glassy">
+            <div class="header-flex">
+                <nav class="main-nav" aria-label="Primary navigation">
+                    <a href="home.html" class="nav-item"><i class="fas fa-home"></i> <span>Home</span></a>
+                    <a href="about.html" class="nav-item"><i class="fas fa-user"></i> <span>About</span></a>
+                    <a href="work.html" class="nav-item"><i class="fas fa-briefcase"></i> <span>Work</span></a>
+                    <a href="blog.html" class="nav-item"><i class="fas fa-pen"></i> <span>Blog</span></a>
+                    <a href="gallery.html" class="nav-item active"><i class="fas fa-image"></i> <span>Gallery</span></a>
+                    <a href="connect.html" class="nav-item"><i class="fas fa-link"></i> <span>Connect</span></a>
+                    <a href="testimonials.html" class="nav-item"><i class="fas fa-quote-left"></i> <span>Testimonials</span></a>
+                    <button class="theme-toggle" id="theme-toggle" title="Toggle dark/light mode" aria-label="Toggle dark/light mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </nav>
+                <div class="datetime-display">
+                    <i class="fas fa-clock"></i>
+                    <span id="datetime-display"></span>
+                </div>
+            </div>
+        </header>
+        <main class="main-content fade-in">
+            <section class="section-card">
+                <h1 class="gradient-text">Gallery</h1>
+                <div class="gallery-grid">
+                    <div class="gallery-item"><img src="gallery1.jpg" alt="Fieldwork 1"></div>
+                    <div class="gallery-item"><img src="gallery2.jpg" alt="Lab research"></div>
+                    <div class="gallery-item"><img src="gallery3.jpg" alt="Team project"></div>
+                    <div class="gallery-item"><img src="gallery4.jpg" alt="Mining site"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
